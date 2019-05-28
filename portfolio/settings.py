@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 #remember its folder name.apps.appname in the installed apps list
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'jobs.apps.JobsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
