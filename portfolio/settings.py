@@ -127,7 +127,7 @@ STATICFILES_DIRS=[
   
 ]
 
-STATIC_ROOT=os.path.join(BASE_DIR, 'static')
+STATIC_ROOT=os.path.join(BASE_DIR, 'staticfiles')#this was static
 STATIC_URL = '/static/' #this is simiar to the media ROOT AND URL 
 
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')#this is to store the imaage file
